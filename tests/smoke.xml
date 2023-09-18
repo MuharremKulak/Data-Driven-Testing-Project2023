@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SMOKE TEST SUITE">
+    <test name="SMOKE TESTS">
+        <classes>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase1.RegisterUserTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase2.LoginUserWithIncorrectEmailAndPasswordTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase3.LoginUserWithCorrectEmailAndPasswordTest"/>
+        </classes>
+    </test>
+</suite>

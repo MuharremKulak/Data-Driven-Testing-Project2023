@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="REGRESSION TEST SUITE">
+    <test name="REGRESSION TESTS">
+
+        <classes>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase1.RegisterUserTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase2.LoginUserWithIncorrectEmailAndPasswordTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase3.LoginUserWithCorrectEmailAndPasswordTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase4.LogoutUserTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase5.RegisterUserWithExistingEmailTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase6.ContactUsFormTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase7.VerifyTestCasesPageTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase8.VerifyAllProductsAndProductDetailPageTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase9.SearchProductTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase10.VerifySubscriptionInHomePageTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase11.VerifySubscriptionInCartPage"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase12.AddProductsInCart"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase13.VerifyProductQuantityInCartTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase14.PlaceOrder_RegisterWhileCheckoutPageTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase15.PlaceOrder_RegisterBeforeCheckoutTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase16.PlaceOrder_LoginBeforeCheckoutTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase17.RemoveProductsFromCartTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase18.ViewCategoryProductsTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase19.ViewCartBrandProductsTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase20.SearchProductsAndVerifyCartAfterLoginTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase21.AddReviewOnProductTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase22.AddToCartFromRecommendedItemsTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase23.VerifyAddressDetailsInCheckoutTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase24.DownloadInvoiceAfterPurchaseOrderTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase25.VerifyScrollUpUsingArrowButtonAndScrollDownFunctionalityTest"/>
+            <class name="com.academy.muharremkulak.testCasesAll.testCase26.VerifyScrollUpWithoutArrowButtonAndScrollDownFunctionalityTest"/>
+        </classes>
+    </test>
+</suite>
